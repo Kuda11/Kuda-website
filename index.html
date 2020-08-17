@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuda Thomas</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <style>
+
+        .profile {
+            padding: 4em 1em 2em 8em;
+        }
+        .services {
+            padding: 4em 1em 2em 8em;
+        }
+
+      .parallax-container {
+        height: 500px;
+      }
+
+      .parallax-img {
+          max-height: 1000px;
+      } 
+
+
+      .tabs .tab a:focus.active {
+        color:#1a237e;
+        /*Custom Text Color While Active*/
+        background-color: transparent;
+        /*Custom Background Color While Active*/
+      }
+
+      .tabs .indicator {
+        background-color:#1a237e;
+        /*Custom Color Of Indicator*/
+      }
+
+    </style>
+</head>
+<body>
+    <!--Page header with profile image and text (Desktop display)-->
+    <header>
+        <nav class="white hide-on-med-and-down">
+            <div class="nav-wrapper">
+                <a href="#home" class="brand-logo indigo-text text-darken-4">Kuda Thomas</a>
+
+                <a href="#home" class="brand-logo center"><img src="imagies/abstract.png" class="responsive-img" width="120px" height="120px"></a>
+    
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#home" class="indigo-text text-darken-4">Home</a></li>
+                    <li><a href="#goals" class="indigo-text text-darken-4">Hobbies and Intersts</a></li>
+                    <li><a href="#contacts" class="indigo-text text-darken-4">Contacts</a></li>
+                </ul>                
+            </div>
+        </nav>
+    <!--Mobile Nav Display-->
+        <nav class="transparent hide-on-large-only show-on-medium-and-down">
+            <a href="#home" class="brand-logo right indigo-text text-darken-4">Kuda Thomas</a>
+            <a href="#home" class="brand-logo center"><img src="imagies/abstract.png" class="responsive-img" width="100px" height="100px"></a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger" ><i class="material-icons indigo-text text-darken-4">menu</i></a>
+
+            <ul id="slide-out" class="sidenav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#goals">Hobbies and Intersts</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+    
+        </nav>
+
+    </header>
+
+    <!-- About me -->    
+    <section class="profile" id="home">
+        <div class="row">
+            <div class="col s12 l4 offset-l1">
+              <img class="responsive-img materialboxed" max-width="10" src="imagies/box.jpg">
+            </div>
+            <div class="col s12 l4 indigo-text push-l1 text-darken-4">
+              <h2>Hello I am Kuda</h2>
+              <p class="black-text">I just finished studying Business Mangement & Entrepreneurship at Portsmouth University. Although I gained a lot of life experience at Universtity I would not say it taught me much about being an entrepreneur. These skills I learnt in my spare time by trying out different stuff till it worked for me.</p>
+            </div>
+          </div>
+    </section>
+
+
+
+    <!-- Parallax -->
+    <section>
+        <div class="parallax-container">
+            <div class="parallax"><img class="parallax-img" src="imagies/shapes.jpg"></div>
+          </div>
+      </section>
+
+    <!--hobbies and intrestst-->
+    <section class="services" id="goals">
+        <div class="row">
+          <div class="col s12 l4 offset-l1">
+            <h2 class="indigo-text text-darken-4 center">Goals For The Course</h2>
+            <p>I want to be able to write code in multiple languages fluently, as well as be able to spot and fix errors.</p>
+            <p>Plus I what to get a well paying job to kick start my career in business</p>
+          </div>
+          <div class="col s12 l4 offset-l2">
+            <ul id="tabs-swipe" class="tabs">
+              <li class="tab col s6"><a class="indigo-text text-darken-4" href="#photography">INTERESTS</a></li>
+              <li class="tab col s6"><a class="indigo-text text-darken-4" href="#editing">HOBBIES</a></li>
+            </ul>
+            <div id="photography" class="col s12">
+              <h6 class="indigo-text text-darken-4">INTERESTS</h6>
+              <p>I am interested in cars mostly Jeeps and Mercedes. After this course I should get a job and be able to aford one.</p>
+              <p>Also I am into cooking and playing games such as fifa with my friends from uni.</p>
+            </div>
+            <div id="editing" class="col s12">
+              <h6 class="indigo-text text-darken-4">HOBBIES</h6>
+              <p>I like doing a lot of things such as fishing, playing sports such as basketball and football. Recently I became intrested in coding and I wouldlike to venture into a career.</p>
+              <p></p>
+
+            </div>
+           
+          </div>
+        </div>
+      </section>
+      
+      <!--Parallax-->
+      <section>
+        <div class="parallax-container">
+            <div class="parallax"><img class="parallax-img" src="imagies/wall.jpg"></div>
+          </div>
+      </section>
+
+      <!--footer-->
+
+      <footer class="page-footer indigo darken-1" id="contacts">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">About Me</h5>
+              <p class="grey-text text-lighten-4">I am a nice and funny person who is very hard working</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Contacts</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Linked-In</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright indigo darken-4">
+          <div class="container center">
+          © 2020 Copyright Kuda Thomas
+          </div>
+        </div>
+    
+      </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+        $('.parallax').parallax();
+        $('.materialboxed').materialbox();
+        $('.tabs').tabs();
+      });
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+
+        .profile {
+            padding: 4em 1em 2em 8em;
+        }
+        .services {
+            padding: 4em 1em 2em 8em;
+        }
+
+      .parallax-container {
+        height: 500px;
+      }
+
+      .parallax-img {
+          max-height: 1000px;
+      } 
+
+
+      .tabs .tab a:focus.active {
+        color:#1a237e;
+        /*Custom Text Color While Active*/
+        background-color: transparent;
+        /*Custom Background Color While Active*/
+      }
+
+      .tabs .indicator {
+        background-color:#1a237e;
+        /*Custom Color Of Indicator*/
+      }
